@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+
+        <!--menuitem name="GestioneFRANCESCO"
+            id="codici.codici_management"
+            parent="product.menu_root"
+            sequence="400" />
+
+        <menuitem name="Clienti"
+            id="odoo14.clienti"
+            parent="odoo14.partner_management"
+            action="odoo14.partner_action_window"
+            groups="odoo14.operatore_group" /-->
+
+    </data>
+</odoo>
