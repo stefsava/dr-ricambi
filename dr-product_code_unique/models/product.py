@@ -9,8 +9,8 @@ class ProductProduct(models.Model):
 
     _sql_constraints = [
         (
-            "default_code_uniq",
-            "unique(default_code, product_brand_id)",
+            "default_code_and_brand_id_uniq",
+            "unique(default_code,product_brand_id)",
             "Internal Reference and product_brand_id must be unique across the database!",
         )
     ]
