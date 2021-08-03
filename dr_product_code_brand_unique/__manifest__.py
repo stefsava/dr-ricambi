@@ -15,4 +15,6 @@
         ],
     "pre_init_hook": "pre_init_product_code",
     "installable": True,
+    "auto_install": True,
+
 }
