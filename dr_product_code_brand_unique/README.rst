@@ -28,6 +28,8 @@ Unique Product Internal Reference
 This module adds a constraint on the internal reference of the product
 to make it unique across the database.
 
+**This is a customization of the original OCA module, referer to [readme.md](https://github.com/dattolo/dr-ricambi/tree/master/dr_product_code_brand_unique) for more info**
+
 **Table of contents**
 
 .. contents::

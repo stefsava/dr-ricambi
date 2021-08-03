@@ -9,7 +9,10 @@
     "author": "Open Source Integrators, Odoo Community Association (OCA)",
     "category": "drricambi",
     "website": "https://github.com/OCA/product-attribute",
-    "depends": ["product"],
+    "depends": [
+        "product",
+        "product_brand",
+        ],
     "pre_init_hook": "pre_init_product_code",
     "installable": True,
 }
