@@ -4,14 +4,14 @@
 from odoo import models
 
 # LOGGING
-import logging
-_logger = logging.getLogger(__name__)
+#import logging
+#_logger = logging.getLogger(__name__)
 
 
 class ProductProduct(models.Model):
     _inherit = "product.template"
 
-    _logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  product.template LOGGING  " + str('Pippo Franco'));
+    #_logger.info("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  LOGGING  ")
 
     _sql_constraints = [
         (
