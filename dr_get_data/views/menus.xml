@@ -4,6 +4,7 @@
 
     <!-- 2. Add the menu items-->
     <menuitem name="Get Data" id="dr_get_data_base_menu" />
-    <menuitem name="Get " id="dr_get_data_upload_menu" parent="dr_get_data_base_menu" action="dr_get_data_action"/>
+    <menuitem name="Get" id="dr_get_data_menu" parent="dr_get_data_base_menu" action="dr_get_data_action"/>
+    <menuitem name="Members" id="dummy_json_members_menu" parent="dr_get_data_base_menu" action="dummy_json_members_action"/>
 
 </odoo>

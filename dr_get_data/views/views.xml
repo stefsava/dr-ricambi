@@ -6,6 +6,11 @@
       <field name="res_model">dr_get_data.dr_get_data</field>
       <field name="view_mode">tree,form</field>
     </record>
+    <record id='dummy_json_members_action' model='ir.actions.act_window'>
+      <field name="name">Dummy Json Members</field>
+      <field name="res_model">dummy.json.members</field>
+      <field name="view_mode">tree,form</field>
+    </record>
     <!-- explicit list view definition -->
 <!--
     <record model="ir.ui.view" id="dr-prodotti.list">

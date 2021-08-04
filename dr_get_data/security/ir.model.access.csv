@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_dr_get_data_dr_get_data,dr_get_data.dr_get_data,model_dr_get_data_dr_get_data,base.group_user,1,1,1,1
+access_dummy_json_members,dummy.json.members,model_dummy_json_members,base.group_user,1,1,1,1
