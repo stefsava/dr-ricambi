@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- 3. Add custom form FORM - CHANGE -->
+        <record id="dr_get_data_view_form" model="ir.ui.view">
+            <field name="name">DR Get Data</field>
+            <field name="model">dr_get_data.dr_get_data</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+
+                    <button name="get_json" string="Get Json" type="object"
+                    />
+
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

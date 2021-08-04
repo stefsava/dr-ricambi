@@ -1,0 +1,66 @@
+<odoo>
+  <data>
+    <!-- 1. Add the action that opens the views-->
+    <record id='dr_get_data_action' model='ir.actions.act_window'>
+      <field name="name">Get  Data</field>
+      <field name="res_model">dr_get_data.dr_get_data</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="dr-prodotti.list">
+      <field name="name">dr-prodotti list</field>
+      <field name="model">dr-prodotti.dr-prodotti</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="dr-prodotti.action_window">
+      <field name="name">dr-prodotti window</field>
+      <field name="res_model">dr-prodotti.dr-prodotti</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="dr-prodotti.action_server">
+      <field name="name">dr-prodotti server</field>
+      <field name="model_id" ref="model_dr-prodotti_dr-prodotti"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="dr-prodotti" id="dr-prodotti.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="dr-prodotti.menu_1" parent="dr-prodotti.menu_root"/>
+    <menuitem name="Menu 2" id="dr-prodotti.menu_2" parent="dr-prodotti.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="dr-prodotti.menu_1_list" parent="dr-prodotti.menu_1"
+              action="dr-prodotti.action_window"/>
+    <menuitem name="Server to list" id="dr-prodotti" parent="dr-prodotti.menu_2"
+              action="dr-prodotti.action_server"/>
+-->
+  </data>
+</odoo>
